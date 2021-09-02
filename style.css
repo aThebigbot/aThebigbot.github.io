@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+
+body {
+    background-color: cornflowerblue
+}
+
+#title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+#button {
+    background-color: cornflowerblue;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: bold; 
+    display: inline-flex; 
+    width: 50px;
+    height: 40px;
+    margin-right: 10px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+    border-radius: 6px;
+    border: solid white 1.2px;
+    transition: all 0.2s ease-in-out;
+}
+
+#button:hover {
+    box-shadow: 0px 0px 20px 0px rgba(100, 149, 237);
+    color: cornflowerblue;
+    background-color: white;
+    transform: scale(1.05);
+    content: none;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container a {
+    position: relative;
+    width: 160px;
+    height: 60px;
+    display: inline-block;
+    background: #fff;
+    margin: 20px;
+}
+
+.cc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cc a {
+    position: relative;
+    width: 160px;
+    height: 60px;
+    display: inline-block;
+    background: #fff;
+    margin: 20px;
+}
+
+*{
+    padding: 0;
+    margin: 10px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
