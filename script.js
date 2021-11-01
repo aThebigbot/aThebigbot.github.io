@@ -1,11 +1,7 @@
-function discord() {
-    window.open("https://discord.gg/3PXpRr2atg");
-}
-
-function npm() {
-    window.open("https://www.npmjs.com/~thebigbot");
-}
-
 function git() {
-    window.open("https://github.com/Thebigbot0000/");
+    window.open("https://github.com/Thebigbot0000");
+}
+
+function discord() {
+    window.open("https://discord.gg/Z3uxE6EzQa");
 }
