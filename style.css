@@ -1,12 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
 
-#btn {
-    width: 60px;
-    height: 40px;
+#title {
+    color: black;
 }
 
-#div {
+*{
     text-align: center;
     align-items: center;
+}
+
+#hr {
+    border: 1px solid rgba(196, 196, 196, 0.1);
+	border-radius: 5px;
+	width: 98%;
 }
 
