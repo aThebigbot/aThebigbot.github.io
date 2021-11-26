@@ -1,24 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
 
-#title {
-    color: rgb(63, 61, 61);
-    font-size: 55px;
+#name {
+    color: whitesmoke;
+    font-size: 60px;
 }
 
+#line {
+    color: whitesmoke;
+}
 
-*{
+#projects {
+    color: whitesmoke;
+    font-size: 60px;
     text-align: center;
-    align-items: center;
 }
 
-#hr {
-    border: 1px solid rgba(196, 196, 196, 0.1);
-	border-radius: 5px;
-	width: 98%;
+#staticBackdropLabel {
+    color: black;
 }
-
-#description {
-    font-size: 20px;
-}
-
-

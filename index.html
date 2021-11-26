@@ -16,18 +16,45 @@
   <title>Thebigbot</title>
 </head>
 
-<body>
+<body class="p-3 mb-2 bg-dark text-white">
+  <!--<nav class="navbar navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        Thebigbot
+      </a>
+    </div>
+  </nav>-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
-  <div class="container">
-    <br>
-    <br>
-    <br>
-    <h1 id="title">Thebigbot</h1>
-    <hr id="hr">
-    <p id="description">Hi I'm Thebigbot an Italian developer! I like programming in Js, Css, Html, C#, Ts, Java.<br>I am part of many projects and in most of these projects I am a developer.</p>
-    <button type="button" id="btn" onclick="git()" class="btn btn-outline-secondary"><i class="bi bi-github"></i> GitHub</button> <button onclick="discord()" id="btn" type="button" class="btn btn-outline-secondary"><i class="bi bi-discord"></i> Discord</button>
-  </div>
+    <div class="container">
+      <div class="container" style="text-align: center; align-items: center;">
+        <br>
+        <br>
+        <br>
+      <h1 id="name">Thebigbot</h1>
+        <p>Hi I'm Thebigbot an Italian developer! I like programming in Js, Css, Html, C#, Ts, Java.<br>I am part of many projects and in most of these projects I am a developer.</p>
+        <button type="button" id="btn" onclick="git()" class="btn btn-outline-light"><i class="bi bi-github"></i> GitHub</button> <button onclick="discord()" id="btn" type="button" class="btn btn-outline-light"><i class="bi bi-discord"></i> Discord</button>
+      </div>
+      <br>
+      <hr id="line">
+      <br>
+      <div class="container" style="text-align: center; align-items: center;">
+        <h1 id="projects">My Projects</h1>
+        <p>I work on many projects like SkyForce and many others!<br>Usually in these projects I hold positions relating to programming</p>
+        <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+          <i class="bi bi-hammer"> </i>SkyForce
+        </button>
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">Ops... SkyForce Web Page Doesn't Exist Yet!</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
 </body>
 </html>
