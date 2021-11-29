@@ -9,18 +9,10 @@
     color: whitesmoke;
 }
 
-#projects {
-    color: whitesmoke;
-    font-size: 60px;
-    text-align: center;
+#body {
+    background-image: url("./Img/pt1.png");
 }
 
-#contact {
+#desc {
     color: whitesmoke;
-    font-size: 60px;
-    text-align: center;
-}
-
-#staticBackdropLabel {
-    color: black;
 }
