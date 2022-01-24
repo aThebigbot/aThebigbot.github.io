@@ -1,18 +1,29 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
-
-#name {
+body {
+    background-color: #1e2020;
+}
+#container {
     color: whitesmoke;
-    font-size: 60px;
+    text-align: center;
 }
-
-#line {
-    color: whitesmoke;
+#icon {
+    border-radius: 400px;
+    width: 71px;
+    height: 71px;
 }
-
-#body {
-    background-image: url("./Img/pt1.png");
+#title {
+    font-size: 50px;
 }
-
 #desc {
-    color: whitesmoke;
+    font-size: 20px;
+}
+#btn {
+    width: 55px;
+    height: 55px;
+    border-radius: 30px;
+	background: rgba(196, 196, 196, 0.05);
+	border: 2px solid rgba(196, 196, 196, 0.2);
+    color: rgb(255, 255, 255);
+}
+#btn:hover {
+    transform: scale(0.90);
 }
