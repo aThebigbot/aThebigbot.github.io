@@ -32,7 +32,7 @@
       </h1>
       <p class="desc">
         Hello! I am thebigbot, I am an Italian developer. <br /> I can use JS, TS, HTML,
-        CSS, Shell and I'm learning many others.
+        CSS, SCSS, Shell and I'm learning many others.
       </p>
       <hr class="line"/>
       <button class="btn" on:click={() => github()}><i class="bi bi-github" /></button>
